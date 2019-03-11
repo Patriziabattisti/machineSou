@@ -1,0 +1,15 @@
+Examen JavaScript WAD 2019 - Après-midi
+---------------------------------------
+
+Au choix en JS ou jQuery MAIS il faut qu'une des deux parties soit faite en JS pur.
+
+La machine tire une combinaison de 3 x un chifre entre 1 et 7 inclu.
+
+Combinaisons gagnantes
+----------------------
+777     +10
+123     +5
+111     +2
+autres  -1
+
+

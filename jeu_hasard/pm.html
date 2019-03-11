@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Examen JS WAD 2019 - Après-midi</title>
+        <!-- Plugin : Odometer -->
+        <script src="./odometer.min.js"></script>
+        <link rel="stylesheet" href="./odometer-theme-train-station.css">
+        <style>
+            .odometer {
+                font-size: 100px !important;
+            }
+        </style>        
+        <script src='script.js'></script>  
+        <style>
+            * {
+                font-family: Arial, sans-serif;
+            }
+            
+            table {
+                border-collapse: collapse;
+                width: 400px;
+            }
+            
+            th {
+                text-align: left;
+                background-color: #000000;
+                color: #fff;
+                padding: 10px;
+            }
+            
+            td {
+                padding: 10px;
+            }
+            
+            tr:nth-of-type(even) {
+                background-color: #ccc;
+            }
+            
+            .win {
+                background-color: #1cdb65;
+            }
+            
+            .loss {
+                background-color: #c70d0d;
+            }
+        </style>                            
+    </head>
+    
+    <body>
+        <h1>Slot Machine</h1>
+        
+        <p>
+            <span class="odometer"></span>
+        </p>
+        
+        <p>
+            <button id="luck">Lucky!</button>
+            <button id="reset">Reset</button>
+            <button id="send">Log</button>
+        </p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Coup N°</th>
+                    <th>Résultat</th>
+                    <th>Argent</th>
+                    <th>Gain &amp; Perte</th>
+                </tr>
+            </thead>
+            
+            <tbody></tbody>
+            
+            <tfoot></tfoot>
+        </table>
+    </body>
+</html>
